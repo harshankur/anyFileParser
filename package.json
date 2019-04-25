@@ -1,0 +1,39 @@
+{
+  "name": "anyfileparser",
+  "version": "1.0.0",
+  "description": "Node.JS library that can parse text from any kind of file, eg. text, image, pdf, office files.",
+  "main": "anyFileParser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshankur/anyFileParser.git"
+  },
+  "keywords": [
+    "image",
+    "jpeg",
+    "jpg",
+    "png",
+    "pdf",
+    "office",
+    "docx",
+    "odt",
+    "pptx",
+    "ops",
+    "xlsx",
+    "ods",
+    "xml",
+    "config",
+    "md",
+    "utf",
+    "text",
+    "parser"
+  ],
+  "author": "Harsh Ankur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harshankur/anyFileParser/issues"
+  },
+  "homepage": "https://github.com/harshankur/anyFileParser#readme"
+}
