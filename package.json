@@ -35,5 +35,10 @@
   "bugs": {
     "url": "https://github.com/harshankur/anyFileParser/issues"
   },
-  "homepage": "https://github.com/harshankur/anyFileParser#readme"
+  "homepage": "https://github.com/harshankur/anyFileParser#readme",
+  "dependencies": {
+    "officeparser": "^2.0.3",
+    "pdf-parse": "^1.1.1",
+    "tesseract.js": "^1.0.14"
+  }
 }
