@@ -1,7 +1,7 @@
 const fs = require('fs')
 const Tesseract = require('tesseract.js');
 const pdf = require('pdf-parse');
-const officeParser = reqiore('officeparser');
+const officeParser = require('officeparser');
 
 
 async function parseFile(filename, callback) {
@@ -9,8 +9,8 @@ async function parseFile(filename, callback) {
 
     if(myExtension == "bmp" || myExtension == "pnm" || myExtension == "png" || myExtension == "jfif" || myExtension == "jpg" || myExtension == "jpeg" || myExtension == "tiff") {
         Tesseract.recognize(filename)
-        .finally((result) => {
-            callback(result);
+        .then(async (result) => {
+            await callback(result.text);
         })
     }
     else if(myExtension == "pdf") {
@@ -27,7 +27,7 @@ async function parseFile(filename, callback) {
         })
     }
     else {
-        callback(await fs.readFileSync(location, 'utf-8').toString());
+        callback(await fs.readFileSync(filename, 'utf-8').toString());
     }
 }
 
