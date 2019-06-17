@@ -1,6 +1,6 @@
 {
   "name": "anyfileparser",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Node.JS library that can parse text from any kind of file, eg. text, image, pdf, office files.",
   "main": "anyFileParser.js",
   "scripts": {

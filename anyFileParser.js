@@ -31,7 +31,15 @@ function parseFile(filename, callback) {
     }
 }
 
+// #region setDecompressionLocation
+function setDecompressionLocation(newLocation) {
+    officeParser.setDecompressionLocation(newLocation);
+}
+
+// #endregion setDecompressionLocation
+
 
 module.exports.parseFile = parseFile;
+module.exports.setDecompressionLocation = setDecompressionLocation;
 
 
