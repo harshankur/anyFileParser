@@ -3,6 +3,7 @@ Node.JS library that can parse text from any kind of file, eg. text, image, pdf,
 
 
 #### Update
+* 2019/06/17 - Added method to change location for decompressing office files in places with restricted write access.
 * 2019/05/02 - Initial module with pdf, image, utf-8 and office files.
 
 
